@@ -1,0 +1,29 @@
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+
+# Local bootstrap repository
+/bootstrap/
+
+# Cache
+/.cache/
+
+# Coverage
+/.nyc_output/
+/coverage/
+
+# Bundler files and gems
+/.bundle/
+/vendor/
+
+# npm packages
+/node_modules/
+
+# Vim generated files
+*.swp
+*.swo

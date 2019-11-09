@@ -1,0 +1,53 @@
+{
+  "name": "bootlint-server",
+  "version": "1.0.0",
+  "description": "Bootlint Express app",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twbs/bootlint-server.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "checker",
+    "correctness",
+    "docker",
+    "express",
+    "html",
+    "lint",
+    "linter",
+    "server",
+    "validator",
+    "validity"
+  ],
+  "author": "Chris Rebert <code@rebertia.com> (http://chrisrebert.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/twbs/bootlint-server/issues"
+  },
+  "homepage": "https://github.com/twbs/bootlint-server#readme",
+  "scripts": {
+    "eslint": "eslint --cache-location .cache/.eslintcache --report-unused-disable-directives .",
+    "lint": "npm run eslint",
+    "start": "node ./bin/www",
+    "test": "npm run eslint"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootlint": "^0.16.8",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.6.0"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "bin/www",
+    "app.js",
+    "Dockerfile"
+  ]
+}
