@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/twbs/bootlint-server#readme",
   "scripts": {
-    "eslint": "eslint --cache-location .cache/.eslintcache --report-unused-disable-directives .",
-    "lint": "npm run eslint",
     "start": "node ./bin/www",
-    "test": "npm run eslint"
+    "xo": "xo",
+    "lint": "npm run xo",
+    "test": "npm run xo"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -40,7 +40,7 @@
     "morgan": "^1.9.1"
   },
   "devDependencies": {
-    "eslint": "^6.6.0"
+    "xo": "^0.25.3"
   },
   "engines": {
     "node": ">=8"
@@ -49,5 +49,13 @@
     "bin/www",
     "app.js",
     "Dockerfile"
-  ]
+  ],
+  "xo": {
+    "esnext": true,
+    "space": 4,
+    "rules": {
+      "capitalized-comments": "off",
+      "unicorn/explicit-length-check": "off"
+    }
+  }
 }
