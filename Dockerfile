@@ -1,5 +1,5 @@
 # Written against Docker v1.0.0
-FROM node:0.10
+FROM node:12
 MAINTAINER Chris Rebert <code@rebertia.com>
 
 RUN mkdir -p /usr/src/app
