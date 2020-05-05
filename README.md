@@ -53,4 +53,4 @@ Response:
 
 The project's coding style is laid out in the ESLint configuration. Add unit tests for any new or changed functionality. Lint and test your code using the npm scripts.
 
-Copyright (c) 2014-2019 The Bootlint Authors. Licensed under the MIT License.
+Copyright (c) 2014-2020 The Bootlint Authors. Licensed under the MIT License.
