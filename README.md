@@ -1,7 +1,7 @@
 # Bootlint Server
 
 [![NPM version](https://img.shields.io/npm/v/bootlint-server.svg)](https://www.npmjs.com/package/bootlint-server)
-[![Build Status](https://github.com/twbs/bootlint-server/workflows/Tests/badge.svg)](https://github.com/twbs/bootlint-server/actions?workflow=Tests)
+[![Build Status](https://img.shields.io/github/workflow/status/twbs/bootlint-server/Tests/master)](https://github.com/twbs/bootlint-server/actions?query=branch%3Amaster+workflow%3ATests)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg "MIT License")](https://github.com/twbs/bootlint-server/blob/master/LICENSE)
 [![Dependency Status](https://img.shields.io/david/twbs/bootlint-server.svg)](https://david-dm.org/twbs/bootlint-server)
 [![devDependency Status](https://img.shields.io/david/dev/twbs/bootlint-server.svg)](https://david-dm.org/twbs/bootlint-server?type=dev)
