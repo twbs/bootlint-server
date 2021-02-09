@@ -39,7 +39,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "xo": "^0.32.1"
+    "xo": "^0.37.1"
   },
   "engines": {
     "node": ">=10"
