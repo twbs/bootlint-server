@@ -1,6 +1,6 @@
 # Bootlint Server
 
-[![NPM version](https://img.shields.io/npm/v/bootlint-server.svg)](https://www.npmjs.com/package/bootlint-server)
+[![npm version](https://img.shields.io/npm/v/bootlint-server.svg)](https://www.npmjs.com/package/bootlint-server)
 [![Build Status](https://img.shields.io/github/workflow/status/twbs/bootlint-server/Tests/master)](https://github.com/twbs/bootlint-server/actions?query=branch%3Amaster+workflow%3ATests)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg "MIT License")](https://github.com/twbs/bootlint-server/blob/master/LICENSE)
 [![Dependency Status](https://img.shields.io/david/twbs/bootlint-server.svg)](https://david-dm.org/twbs/bootlint-server)
@@ -53,4 +53,4 @@ Response:
 
 The project's coding style is laid out in the ESLint configuration. Add unit tests for any new or changed functionality. Lint and test your code using the npm scripts.
 
-Copyright (c) 2014-2020 The Bootlint Authors. Licensed under the MIT License.
+Copyright (c) 2014-2021 The Bootlint Authors. Licensed under the MIT License.

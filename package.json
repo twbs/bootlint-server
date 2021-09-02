@@ -39,10 +39,10 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "xo": "^0.37.1"
+    "xo": "^0.44.0"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12"
   },
   "files": [
     "bin/www",
@@ -53,8 +53,22 @@
     "esnext": true,
     "space": 4,
     "rules": {
+      "arrow-body-style": "off",
       "capitalized-comments": "off",
+      "comma-dangle": [
+        "error",
+        "never"
+      ],
+      "operator-linebreak": [
+        "error",
+        "after"
+      ],
+      "space-before-function-paren": [
+        "error",
+        "never"
+      ],
       "unicorn/explicit-length-check": "off",
+      "unicorn/prefer-module": "off",
       "unicorn/prevent-abbreviations": "off"
     }
   }

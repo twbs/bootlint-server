@@ -90,12 +90,12 @@ routes.post('/', (req, res) => {
 const app = express();
 
 app.use(logger('dev'));
-HTML_MIME_TYPES.forEach(type => {
+for (const type of HTML_MIME_TYPES) {
     app.use(bodyParser.text({
         type,
         limit: MAX_HTML_SIZE
     }));
-});
+}
 
 app.use('/', routes);
 
